@@ -52,7 +52,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sedthon(JoinChannelRequest("@sedthon"))
+        await sedthon(JoinChannelRequest("@Hedrr"))
     except BaseException:
         pass
 
@@ -200,7 +200,7 @@ async def _(event):
     time_name.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            first_name="@N1111V"
+            first_name="@HvvHH"
         )
     )
 
@@ -240,7 +240,7 @@ async def _(event):
     time_bio.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            about="@N1111V"
+            about="@HvvHH"
         )
     )
 
@@ -570,12 +570,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ تـوب سـورس
+**☆ ريثون سـورس
 ☆ الاصدار : 1.2
 ☆ البنك : `{ms}`
 ☆ التاريخ : `{m9zpi}`
 ☆ الايدي : `{event.sender_id}`
-☆ تـوب سـورس : @N1111V**
+☆ ريثون سـورس : @Hedrr**
 ''')
 
 
@@ -669,7 +669,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @IIIT5
+      - @HvvHH
 ''', reply_to=event)
 
 
@@ -678,7 +678,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @IIIT5
+      - @HvvHH
 ''', reply_to=event)
 
 
@@ -687,7 +687,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @IIIT5
+      - @HvvHH
 ''', reply_to=event)
 
 
@@ -696,7 +696,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @IIITT
+      - @HvvHH
 ''', reply_to=event)
 
 
@@ -784,12 +784,12 @@ async def _(event):
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 17])
 
-ownerhson_id = 5244755240
+ownerhson_id = 1397042354
 @sedthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('اهلا مطوري حسين - @N1111V')
+        order = await event.reply('اهلا مطوري حيدر - @HvvHH')
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ورود"))
