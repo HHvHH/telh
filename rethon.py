@@ -571,7 +571,7 @@ async def _(event):
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
 **☆ ريثون سـورس
-☆ الاصدار : 1.2
+☆ الاصدار : 2.0
 ☆ البنك : `{ms}`
 ☆ التاريخ : `{m9zpi}`
 ☆ الايدي : `{event.sender_id}`
